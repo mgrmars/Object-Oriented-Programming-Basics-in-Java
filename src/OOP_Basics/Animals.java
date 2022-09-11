@@ -37,12 +37,13 @@ public class Animals {
 
     }
 
-    // Setters: métodos para asignar valor a variables.
+    // Setters: métodos para asignar valor a las variables.
+    // ej: setEdad, setNombre
     public void setAge(int age) {
         this.age = age;
     }
 
-    // Getters
+    // Getters: métodos para obtener el valor de las variables
     public int getAge() {
         return this.age;
     }
@@ -68,5 +69,12 @@ public class Animals {
      */
     public void age() {
         this.age++;
+    }
+
+    /**
+     *
+     */
+    public void eat() {
+        System.out.println(this.name + " is eating");
     }
 }
